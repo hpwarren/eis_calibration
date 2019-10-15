@@ -24,10 +24,9 @@ for n, opt in enumerate(options):
     print(f' {n+1} {opt}')
 n = input(' Select an option > ')
 try:
-    element, ion = (options[int(n)-1]).split()
+    element, ion = (options[int(n)-1]).split(' ')
 except:
     exit()
-    print(element, ion)
 
 ipf = '../1-ints/ints_synop.pickle'
 ts_synop, ints_synop, line_id = read_df(ipf, element, ion)
@@ -66,5 +65,8 @@ ax[1].set_ylabel('Residual (%)')
 
 ax[0].legend()
 
-plt.savefig('calc_decay_' + element + '.png')
+opf = 'calc_decay_' + element + '_' + ion + '.png'
+plt.savefig(opf)
+print(' + saved to ' + opf)
 plt.show()
+
