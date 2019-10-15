@@ -1,0 +1,18 @@
+# INSTR                     LINE        INTS    INTS_ERR
+    EIS          Fe VIII 185.213       20.61        0.06
+    EIS             Fe X 184.536       57.99        0.12
+    EIS            Fe XI 180.401      195.58        0.39
+    EIS            Fe XI 188.216       98.09        0.09
+    EIS           Fe XII 192.394       37.65        0.04
+    EIS           Fe XII 195.119      133.46        0.08
+    EIS          Fe XIII 202.044       81.06        0.10
+    EIS          Fe XIII 203.826       17.52        0.08
+    EIS            He II 256.317      205.47        0.25
+    EIS             O VI 184.117        9.45        0.06
+    EIS              S X 264.233       15.35        0.04
+    EIS           Si VII 275.368       11.09        0.04
+    EIS            Si IX 258.073        2.51        0.04
+    EIS             Si X 258.375       32.60        0.07
+    EIS             Si X 261.058       17.67        0.05
+    EIS             Si X 271.990       16.22        0.04
+    EIS             Si X 277.265       10.95        0.04
